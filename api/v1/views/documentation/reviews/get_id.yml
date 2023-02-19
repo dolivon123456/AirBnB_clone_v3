@@ -1,13 +1,13 @@
-GET method, get all reviews of a place
+GET method, retrieve a review
 ---
 tags:
   - Reviews
 parameters:
-  - name: place_id
+  - name: review_id
     in: path
     type: string
     required: true
-    description: place id
+    description: Review id
 responses:
   200:
     description: Succsesful resquest
